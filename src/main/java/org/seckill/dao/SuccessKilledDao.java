@@ -16,6 +16,8 @@ public interface SuccessKilledDao {
      * @return
      * 插入的行数
      */
+
+
     int insertSuccessKilled(@Param("seckillId") Long seckillId, @Param("userPhone") long userPhone);
 
     /**
